@@ -56,14 +56,43 @@ header img {
 }
 
 @media(min-width: 768px) {
+    /*html elements*/
+    h1 {
+        width: 174px;
+        height: 36px;
+        font-size: 24px;
+        margin: 27px 27px 0 105px;
+    }
     header a {
+        height: 21px;
         color: var(--white-color);
         text-decoration: none;
+        font-size: 14px;
+        margin: 34px 35px 29px 0;
+    }
+    header img {
+        margin-right: 105px;
+    }
+    /*css classses*/
+    
+    .right-header-elements {
+        display: flex;
+    }
+    header li {
         list-style-type: none;
     }
     .header-links {
         display: flex;
         justify-content: flex-end;
         align-items: center;
+    }
+    .link1 {
+        width: 57px;
+    }
+    .link2 {
+        width: 43px;
+    }
+    .link3 {
+        width: 85px;
     }
 }
