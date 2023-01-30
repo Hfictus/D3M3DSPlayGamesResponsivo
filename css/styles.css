@@ -19,7 +19,7 @@
 }
 
 html, body {
-    
+    padding: 0 auto;
 }
 
 header {
@@ -53,6 +53,21 @@ header img {
 .header-mobile {
     display: flex;
     justify-content: space-between;
+}
+
+.title-latest-news {
+    width: 202px;
+    height: 36px;
+    font-size: 24px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    /*margin: 40px 61px 8px 57px;*/
+    color: var(--title-section1-color);
+}
+
+.latest-news-container {
+    padding: 16px 13px 12px 12px;;
 }
 
 @media(min-width: 768px) {
