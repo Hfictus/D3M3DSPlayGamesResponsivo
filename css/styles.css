@@ -10,7 +10,7 @@
 }
 
 :root {
-    --header-color: #38AF90;
+    --blue-color: #38AF90;
     --white-color: #fff;
     --gray-color: #F0F0F0;
     --title-section1-color: #797979;
@@ -26,7 +26,7 @@ header {
     height: 90px;
     width: 100%;
     color: var(--white-color);
-    background-color: var(--header-color);
+    background-color: var(--blue-color);
 }   
 
 /*html elements*/
@@ -43,6 +43,8 @@ header img {
     height: 62px;
     margin: 14px 14px 10px 0;
 }
+
+
 
 /*css classes*/
 
@@ -67,7 +69,18 @@ header img {
 }
 
 .latest-news-container {
+    width: 300px;
+    height: 493px;
+    border-radius: 8px;
+    background: var(--gray-color);
     padding: 16px 13px 12px 12px;;
+
+}
+
+.line {
+    width: 274.85px;
+    height: 3px;
+    border-top: 1px solid var(--blue-color);
 }
 
 @media(min-width: 768px) {
