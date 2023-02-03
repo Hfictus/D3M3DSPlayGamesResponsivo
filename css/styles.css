@@ -130,12 +130,18 @@ header img {
     line-height: 21px;
     color: var(--button-section1);
     margin: 0 16px 0 12px;
+    text-decoration: none;
 }
 
-.section1-button {
-    width: 135px;
-    height: 27px;
-    
+.sec1-btn {
+    width: 244px;
+    height: 67px;
+    background-color: var(--button-section1);
+    border: none;
+    border-radius: 8px;
+    margin: 0 38px 40px 38px;
+    font-size: 18px;
+    color: var(--white-color);
     line-height: 27px;
 }
 
