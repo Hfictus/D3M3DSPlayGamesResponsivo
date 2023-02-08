@@ -41,7 +41,9 @@ header img {
     margin: 14px 14px 10px 0;
 }
 
-
+span {
+    color: var(--blue-color);
+}
 
 /*css classes*/
 
@@ -146,7 +148,8 @@ header img {
 .games-container {
     width: 320px;
     height: 1176px;
-    background-color: var(--gray-color);
+    background-color: black;
+    /*background-color: var(--gray-color);*/
     padding-top: 40px;
 }
 
@@ -159,13 +162,45 @@ header img {
 }
 
 .games-img {
-
+    width: 300px;
+    height: 168.54px;
 }
 
 .text-img {
     width: 300px;
-    height: 157.48px;
+    height: 326.02px;
+    background-color: var(--white-color);
+    margin: 0;
 }
+
+.game-title {
+    width: 220px;
+    height: 27px;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--title-section1-color);
+    margin: 27.46px 40px 0 40px;
+}
+
+.game-producer {
+    width: 207px;
+    height: 21px;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--title-section1-color);
+    margin: 0 46px 13px 47px;
+    
+}
+
+.game-price {
+    width: 52px;
+    height: 54px;
+    font-size: 36px;
+    line-height:54px;
+    color: var(--blue-color);
+    margin: 13px 124px 15px 124px;
+}
+
 
 @media(min-width: 768px) {
     /*html elements*/
