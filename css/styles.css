@@ -148,8 +148,7 @@ span {
 .games-container {
     width: 320px;
     height: 1176px;
-    background-color: black;
-    /*background-color: var(--gray-color);*/
+    background-color: var(--gray-color);
     padding-top: 40px;
 }
 
@@ -170,10 +169,11 @@ span {
     width: 300px;
     height: 326.02px;
     background-color: var(--white-color);
-}
-
-.text-img {
-    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 27px;
 }
 
 .game-title {
@@ -188,10 +188,11 @@ span {
 .game-producer {
     width: 207px;
     height: 21px;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 400;
     line-height: 21px;
     color: var(--title-section1-color);
-    margin: 0 46px 13px 47px;
+    margin: 0 46px 0 47px;
 }
 
 .game-price {
