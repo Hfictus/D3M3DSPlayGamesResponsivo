@@ -149,7 +149,9 @@ span {
     width: 320px;
     height: 1176px;
     background-color: var(--gray-color);
-    padding-top: 40px;
+    padding: 40px 10px 0px 10px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .games-title {
@@ -163,6 +165,7 @@ span {
 .games-img {
     width: 300px;
     height: 168.54px;
+    border-radius: 8px 8px 0 0;
 }
 
 .text-and-img {
@@ -204,6 +207,24 @@ span {
     margin: 13px 124px 15px 124px;
 }
 
+.sign-up-section-title {
+    width: 231px;
+    height: 36px;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--title-section1-color);
+    margin: 0 44px 16px 45px;
+}
+
+.sign-up-container {
+    width: 300px;
+    height: 603px;
+    background-color: var(--gray-color);
+    border-radius: 8px;
+    padding: 40px 0 0 0;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
 
 @media(min-width: 768px) {
     /*html elements*/
