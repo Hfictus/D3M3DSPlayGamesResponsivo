@@ -17,6 +17,7 @@
     --button-section1: #DD7E92;
     --footer-color: #383838;
     --black-color: #000;
+    --form-color: #C4C4C4;
 }
 
 header {
@@ -139,10 +140,13 @@ span {
     background-color: var(--button-section1);
     border: none;
     border-radius: 8px;
-    margin: 0 38px 40px 38px;
     font-size: 18px;
     color: var(--white-color);
     line-height: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
 }
 
 .games-container {
@@ -213,7 +217,8 @@ span {
     font-size: 24px;
     line-height: 36px;
     color: var(--title-section1-color);
-    margin: 0 44px 16px 45px;
+    margin: 0 auto;
+    margin-bottom: 16px;
 }
 
 .sign-up-container {
@@ -224,6 +229,34 @@ span {
     padding: 40px 0 0 0;
     margin: 0 auto;
     margin-bottom: 40px;
+}
+
+.user-name {
+    width: 280px;
+    height: 50px;
+    background-color: var(--white-color);
+    border: 1px solid var(--title-section1-color);
+    border-radius: 4px;
+    margin: 0 12px 20px 8px;
+    padding: 13px 128px 13px 22px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.user-email {
+    width: 280px;
+    height: 50px;
+    background-color: var(--white-color);
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid var(--title-section1-color);
+    border-radius: 4px;
+    padding: 13px 214px 13px 22px;
+    margin: 0 20px 20px 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 @media(min-width: 768px) {
