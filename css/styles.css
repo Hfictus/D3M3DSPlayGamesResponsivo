@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+/*obs.:
+trocar o nome da variável da cor dos botões das seções 1 e 3;
+continuar a estilizar o botão enviar da seção de formulário; 
+*/
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +48,10 @@ header img {
 
 span {
     color: var(--blue-color);
+}
+
+label {
+    font-weight: 400;
 }
 
 /*css classes*/
@@ -226,7 +234,7 @@ span {
     height: 603px;
     background-color: var(--gray-color);
     border-radius: 8px;
-    padding: 40px 0 0 0;
+    padding: 40px 0 0 8px;
     margin: 0 auto;
     margin-bottom: 40px;
 }
@@ -237,7 +245,7 @@ span {
     background-color: var(--white-color);
     border: 1px solid var(--title-section1-color);
     border-radius: 4px;
-    margin: 0 12px 20px 8px;
+    margin: 0 12px 20px 0;
     padding: 13px 128px 13px 22px;
     font-size: 16px;
     font-weight: 400;
@@ -253,10 +261,21 @@ span {
     border: 1px solid var(--title-section1-color);
     border-radius: 4px;
     padding: 13px 214px 13px 22px;
-    margin: 0 20px 20px 8px;
+    margin: 0 20px 20px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+}
+
+.game-platforms {
+    font-size: 16px;
+    color: var(--title-section1-color);
+    margin: 70px 30px 8px 0;
+}
+
+.send-btn {
+    width: 244px;
+    height: 67px;
 }
 
 @media(min-width: 768px) {
