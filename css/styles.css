@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-/*obs.:
-trocar o nome da variável da cor dos botões das seções 1 e 3;
-continuar a estilizar o botão enviar da seção de formulário; 
-*/
 * {
     margin: 0;
     padding: 0;
@@ -18,10 +14,11 @@ continuar a estilizar o botão enviar da seção de formulário;
     --white-color: #fff;
     --gray-color: #F0F0F0;
     --title-section1-color: #797979;
-    --button-section1: #DD7E92;
+    --button-sections: #DD7E92;
     --footer-color: #383838;
     --black-color: #000;
     --form-color: #C4C4C4;
+    --radio-checkbox-color: #999;
 }
 
 header {
@@ -52,6 +49,7 @@ span {
 
 label {
     font-weight: 400;
+    line-height: 24px;
 }
 
 /*css classes*/
@@ -145,7 +143,7 @@ label {
 .sec1-btn {
     width: 244px;
     height: 67px;
-    background-color: var(--button-section1);
+    background-color: var(--button-sections);
     border: none;
     border-radius: 8px;
     font-size: 18px;
@@ -237,6 +235,7 @@ label {
     padding: 40px 0 0 8px;
     margin: 0 auto;
     margin-bottom: 40px;
+    font-size: 16px;
 }
 
 .user-name {
@@ -267,16 +266,40 @@ label {
     line-height: 24px;
 }
 
+
 .game-platforms {
-    font-size: 16px;
     color: var(--title-section1-color);
-    margin: 70px 30px 8px 0;
+    margin: 70px 30px 35px 0;
 }
 
-.send-btn {
+.input-label {
+    display: flex;
+}
+
+.input-label-Pc {
+    margin-top: 8px;
+}
+
+.radio-checkbox {
+    /*appearance: none;*/
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    background: var(--white-color);
+    border: 1px solid var(--radio-checkbox-color);
+    margin: 0 7px 8px 0;
+}
+
+
+.sec3-send-btn {
     width: 244px;
     height: 67px;
+    background: var(--button-sections);
+    border: none;
+    border-radius: 8px;
+    margin: 43px 30px 20px 18px;
 }
+
 
 @media(min-width: 768px) {
     /*html elements*/
