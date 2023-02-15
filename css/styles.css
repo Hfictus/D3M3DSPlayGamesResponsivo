@@ -3,8 +3,11 @@
 
 /*
 ver:
-links do header;
-border do botão enviar;
+responsividade (header)
+obs.: 
+tive de adaptar alguns valores no header e em sign-up;
+o footer não ficou exatamente igual.
+
 */
 
 * {
@@ -27,13 +30,6 @@ border do botão enviar;
     --form-color: #C4C4C4;
     --radio-checkbox-color: #999;
 }
-
-header {
-    height: 90px;
-    width: 100%;
-    color: var(--white-color);
-    background-color: var(--blue-color);
-}   
 
 /*html elements*/
 
@@ -65,13 +61,22 @@ footer p {
 
 /*css classes*/
 
+.header-container {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    display: flex;
+    justify-content: space-between;
+}
+
 .header-links {
     display: none;
 }
 
-.header-mobile {
-    display: flex;
-    justify-content: space-between;
+.section1 {
+    padding-top: 90px;
 }
 
 .news-latest-title {
@@ -256,8 +261,8 @@ footer p {
     background-color: var(--white-color);
     border: 1px solid var(--title-section1-color);
     border-radius: 4px;
-    margin: 0 12px 20px 0;
-    padding: 13px 128px 13px 22px;
+    margin-bottom: 18px;
+    padding: 13px 0 13px 22px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -267,12 +272,10 @@ footer p {
     width: 280px;
     height: 50px;
     background-color: var(--white-color);
-    box-sizing: border-box;
-    position: absolute;
     border: 1px solid var(--title-section1-color);
     border-radius: 4px;
-    padding: 13px 214px 13px 22px;
-    margin: 0 20px 20px 0;
+    padding: 13px 0 13px 22px;
+    margin: 0 20px 18px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -281,7 +284,7 @@ footer p {
 
 .game-platforms {
     color: var(--title-section1-color);
-    margin: 70px 30px 35px 0;
+    margin: 20px 30px 32px 0;
 }
 
 .input-label {
@@ -293,24 +296,22 @@ footer p {
 }
 
 .radio-checkbox {
-    /*appearance: none;*/
     border-radius: 50%;
     width: 23px;
     height: 23px;
     background: var(--white-color);
     border: 1px solid var(--radio-checkbox-color);
-    margin: 0 7px 8px 0;
+    margin: 0 7px 7px 0;
 }
 
 .sec3-send-btn {
-    position: absolute;
     width: 244px;
     height: 67px;
     background: var(--sections-buttons);
     border: none;
     border-radius: 8px;
     padding: 20px 94px 20px 91px;
-    margin: 43px 30px 20px 18px;
+    margin: 40px 30px 20px 18px;
     font-size: 18px;
     line-height: 27px;
     color: var(--white-color);
@@ -323,7 +324,7 @@ footer p {
     height: 67px;
     top: 3094px;
     background: var(--white-color);
-    border: 2px solid var(--sections-buttons);
+    border: 1px solid var(--sections-buttons);
     border-radius: 8px;
     font-size: 18px;
     color: var(--sections-buttons);
@@ -394,7 +395,8 @@ footer p {
         height: 21px;
         color: var(--white-color);
         text-decoration: none;
-        font-size: 14px;
+        font-size: 12px;
+        font-weight: 500;
         margin: 34px 35px 29px 0;
     }
     header img {
@@ -408,18 +410,11 @@ footer p {
     header li {
         list-style-type: none;
     }
+        
     .header-links {
         display: flex;
-        justify-content: flex-end;
+        /*justify-content: flex-end;*/
         align-items: center;
     }
-    .link1 {
-        width: 57px;
-    }
-    .link2 {
-        width: 43px;
-    }
-    .link3 {
-        width: 85px;
-    }
+    
 }
