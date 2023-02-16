@@ -34,8 +34,7 @@ o footer não ficou exatamente igual.
 /*html elements*/
 
 h1 {
-    width: 131px;
-    height: 27px;
+    /*width: 131px; height: 27px;*/
     font-size: 18px;
     margin: 32px 31px 0 10px;
 }
@@ -80,7 +79,7 @@ footer p {
 }
 
 .news-latest-title {
-    width: 202px;
+    width: 202px; 
     height: 36px;
     font-size: 24px;
     margin: 0 auto;
@@ -102,8 +101,7 @@ footer p {
 }
 
 .news-title3 {
-    width: 275px;
-    height: 24px;
+    /*width: 275px; height: 24px;*/
     font-size: 16px;
     line-height: 24px;
     color: var(--blue-color);
@@ -111,8 +109,7 @@ footer p {
 }
 
 .news-title4 {
-    width: 274.85px;
-    height: 54px;
+    /*width: 274.85px; height: 54px;*/
     font-size: 12px;
     line-height: 18px;
     color: var(--title-section1-color);
@@ -127,8 +124,7 @@ footer p {
 }
 
 .news-date {
-    width: 274.85px;
-    height: 15px;
+    /*width: 274.85px; height: 15px;*/
     font-weight: 400;
     font-size: 10px;
     line-height: 15px;
@@ -137,8 +133,7 @@ footer p {
 }
 
 .news-text {
-    width: 276px;
-    height: 329px;
+    /*width: 276px; height: 329px;*/
     font-weight: 400;
     font-size: 10px;
     line-height: 15px;
@@ -147,11 +142,10 @@ footer p {
 }
 
 .read-more {
-    width: 272px;
-    height: 21px;
+    /*width: 272px; height: 21px;*/
     font-size: 14px;
     line-height: 21px;
-    color: var(--button-section1);
+    color: var(--sections-buttons);
     margin: 0 16px 0 12px;
     text-decoration: none;
 }
@@ -181,8 +175,7 @@ footer p {
 }
 
 .games-title {
-    widht: 75px;
-    height: 36px;
+    /*width: 75px; height: 36px;*/
     font-size: 24px;
     color: var(--blue-color);
     margin: 0 123px 28px 122px;
@@ -206,8 +199,7 @@ footer p {
 }
 
 .game-title {
-    width: 220px;
-    height: 27px;
+    /*width: 220px; height: 27px;*/
     font-size: 18px;
     line-height: 27px;
     color: var(--title-section1-color);
@@ -215,8 +207,7 @@ footer p {
 }
 
 .game-producer {
-    width: 207px;
-    height: 21px;
+    /*width: 207px; height: 21px;*/
     font-size: 12px;
     font-weight: 400;
     line-height: 21px;
@@ -225,8 +216,7 @@ footer p {
 }
 
 .game-price {
-    width: 52px;
-    height: 54px;
+    /*width: 52px; height: 54px;*/
     font-size: 36px;
     line-height:54px;
     color: var(--blue-color);
@@ -234,7 +224,7 @@ footer p {
 }
 
 .sign-up-section-title {
-    width: 231px;
+    width: 231px; 
     height: 36px;
     font-size: 24px;
     line-height: 36px;
@@ -334,13 +324,9 @@ footer p {
 }
 
 .footer-container {
-    /*position: ;*/
-    width: 320px;
+    width: 100%;/*320px;*/
     height: 302px;
-    /*top: 3234px;*/
     background: var(--footer-color);
-    /*padding: 20px 0 20px 0;*/
-    margin: 0 auto;
     margin-top: 40px;
 }
 
@@ -386,13 +372,12 @@ footer p {
 @media(min-width: 768px) {
     /*html elements*/
     h1 {
-        width: 174px;
-        height: 36px;
+        /*width: 174px; height: 36px;*/
         font-size: 24px;
         margin: 27px 27px 0 105px;
     }
     header a {
-        height: 21px;
+        /* width: 57px; height: 21px;*/
         color: var(--white-color);
         text-decoration: none;
         font-size: 12px;
