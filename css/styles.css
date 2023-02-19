@@ -3,7 +3,7 @@
 
 /*
 ver:
-responsividade (rever games e ir para sign-up)
+responsividade (continuar em sign-up)
 obs.: 
 tive de adaptar alguns valores no header e em sign-up;
 o footer não ficou exatamente igual.
@@ -484,7 +484,7 @@ footer p {
         font-size: 36px;
         line-height: 54px;
         text-align: center;
-        margin-bottom: 73px/
+        margin-bottom: 73px;
     }
     
    .cards {
@@ -494,7 +494,92 @@ footer p {
     .center-card {
         margin: 0 30px;
     }
+
+    .sign-up-section-title {
+    width: 347px; 
+    height: 54px;
+    font-size: 36px;
+    line-height: 54px;
+    margin: 0 auto;
+    margin-top: 39px;
+    margin-bottom: 92px;
+}
+
+.sign-up-container {
+    width: 790px;
+    height: 522px;
+    background-color: blue;
+    box-shadow: none;
+    padding: 52px 0 52px 73px;
+    margin-bottom: 61px;
+}
+
+.user-name {
+    width: 642px;
+    padding-right: 490px;
+    margin-right: 75px;
+}
+
+.user-email {
+    width: 642px;
+    padding-right: 576px;
+    margin-right: 75px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.game-platforms {
+    color: var(--title-section1-color);
+    margin: 20px 30px 32px 0;
+}
+
+.input-label {
+    display: flex;
+}
+
+.input-label-Pc {
+    margin-top: 8px;
+}
+
+.radio-checkbox {
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    background: var(--white-color);
+    border: 1px solid var(--radio-checkbox-color);
+    margin: 0 7px 7px 0;
+}
+
+.sec3-send-btn {
+    width: 244px;
+    height: 67px;
+    background: var(--sections-buttons);
+    border: none;
+    border-radius: 8px;
+    padding: 20px 94px 20px 91px;
+    margin: 40px 30px 20px 18px;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--white-color);
     
-     
+}
+
+.sec3-reset-btn {
+    position: absolute;
+    width: 244px;
+    height: 67px;
+    top: 3094px;
+    background: var(--white-color);
+    border: 1px solid var(--sections-buttons);
+    border-radius: 8px;
+    font-size: 18px;
+    color: var(--sections-buttons);
+    line-height: 27px;
+    padding: 20px 91px 20px 87px;
+    margin: 0 30px 33px 18px;
+}
+
+
   
 }
