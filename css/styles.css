@@ -6,7 +6,7 @@ ver:
 responsividade (continuar em sign-up)
 obs.: 
 tive de adaptar alguns valores no header e em sign-up;
-o footer não ficou exatamente igual.
+o footer não ficou exatamente igual no mobile.
 
 */
 
@@ -311,7 +311,6 @@ footer p {
 }
 
 .sec3-reset-btn {
-    position: absolute;
     width: 244px;
     height: 67px;
     top: 3094px;
@@ -382,7 +381,7 @@ footer p {
         /* width: 57px; height: 21px;*/
         color: var(--white-color);
         text-decoration: none;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 500;
         margin: 34px 35px 29px 0;
     }
@@ -503,83 +502,90 @@ footer p {
     margin: 0 auto;
     margin-top: 39px;
     margin-bottom: 92px;
-}
+    }
 
-.sign-up-container {
-    width: 790px;
-    height: 522px;
-    background-color: blue;
-    box-shadow: none;
-    padding: 52px 0 52px 73px;
-    margin-bottom: 61px;
-}
+    .sign-up-container {
+        width: 790px;
+        height: 522px;
+        box-shadow: none;
+        padding: 52px 0 52px 73px;
+        margin-bottom: 61px;
+    }
 
-.user-name {
-    width: 642px;
-    padding-right: 490px;
-    margin-right: 75px;
-}
+    .user-name {
+        width: 642px;
+        margin-right: 75px;
+        padding-right: 22px;
+    }
 
-.user-email {
-    width: 642px;
-    padding-right: 576px;
-    margin-right: 75px;
-    font-size: 16px;
-    line-height: 24px;
-}
+    .user-email {
+        width: 642px;
+        padding-right: 22px;
+        margin-right: 75px;
+    }
 
 
-.game-platforms {
-    color: var(--title-section1-color);
-    margin: 20px 30px 32px 0;
-}
+    .game-platforms {
+        margin: 0 455px 30px 0;
+    }
 
-.input-label {
-    display: flex;
-}
+    .sign-up-section-bottons {
+        margin: 38px 125px 52px 53px;
+        display: flex;
+    }
 
-.input-label-Pc {
-    margin-top: 8px;
-}
 
-.radio-checkbox {
-    border-radius: 50%;
-    width: 23px;
-    height: 23px;
-    background: var(--white-color);
-    border: 1px solid var(--radio-checkbox-color);
-    margin: 0 7px 7px 0;
-}
+    .sec3-send-btn {
+        margin: 0 52px 0 0;
+    }
 
-.sec3-send-btn {
-    width: 244px;
-    height: 67px;
-    background: var(--sections-buttons);
-    border: none;
-    border-radius: 8px;
-    padding: 20px 94px 20px 91px;
-    margin: 40px 30px 20px 18px;
-    font-size: 18px;
-    line-height: 27px;
-    color: var(--white-color);
+    .sec3-reset-btn {
+        top: 2016px;
+        margin: 0;
+    }
+
+    .footer-container {
+        height: 190px;
+        padding: 0 105px;
+        margin-top: 61px;
+    }
     
-}
+    .elements-footer-groups {
+        height: 190px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .footer-elements {
+        font-size: 12px;
+    }
+    
+    .footer-links {
+        margin: 74px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.sec3-reset-btn {
-    position: absolute;
-    width: 244px;
-    height: 67px;
-    top: 3094px;
-    background: var(--white-color);
-    border: 1px solid var(--sections-buttons);
-    border-radius: 8px;
-    font-size: 18px;
-    color: var(--sections-buttons);
-    line-height: 27px;
-    padding: 20px 91px 20px 87px;
-    margin: 0 30px 33px 18px;
-}
-
-
+    .copyright {
+        margin: 84px 5px;
+    }
+        
+    .link1-footer {
+        margin: 0;
+    }
+    
+    .link2-footer {
+        margin: 0;
+    }
+    
+    .link3-footer {
+        margin: 0;
+    }
+    
+    .link4-footer {
+        margin: 0;
+    }
   
 }
