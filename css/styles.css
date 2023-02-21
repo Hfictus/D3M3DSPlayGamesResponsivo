@@ -3,7 +3,16 @@
 
 /*
 ver:
-responsividade (continuar em sign-up)
+alinhar os elementos do cabeçalho na versão
+a partir 768px.
+
+rever para saber se não entendi a questão
+da relatividade. talvez seja isso que esteja 
+faltando para que o link do cabeçalho
+não fique em duas linhas ao se manter as
+medidas indicadas pelo figma quando se 
+verifica a versão mobile (margin-right: 35px;).
+
 obs.: 
 tive de adaptar alguns valores no header e em sign-up;
 o footer não ficou exatamente igual no mobile.
@@ -36,12 +45,13 @@ o footer não ficou exatamente igual no mobile.
 h1 {
     /*width: 131px; height: 27px;*/
     font-size: 18px;
-    margin: 32px 31px 0 10px;
+    line-height: 27px;
+    margin: 32px 179px 31px 10px;
 }
 
 header img {
     width: 62px;
-    height: 62px;
+    /*height: 62px;*/
     margin: 14px 14px 10px 0;
 }
 
@@ -381,25 +391,32 @@ footer p {
         /* width: 57px; height: 21px;*/
         color: var(--white-color);
         text-decoration: none;
-        font-size: 11px;
+        font-size: 14px;
         font-weight: 500;
-        margin: 34px 35px 29px 0;
+        margin: 34px 19px 29px 0;
+    /ao invés de 19px é 35px segundo o figma*/
     }
     header img {
         margin-right: 105px;
     }
     /*css classses*/
     
+    .header-container {
+        /*display: flex;*/
+    }
+    
     .right-header-elements {
         display: flex;
     }
+
     header li {
         list-style-type: none;
     }
         
     .header-links {
+        margin-top: 0;
+        margin-bottom: 0;
         display: flex;
-        /*justify-content: flex-end;*/
         align-items: center;
     }
 
