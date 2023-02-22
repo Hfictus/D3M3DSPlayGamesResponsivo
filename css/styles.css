@@ -2,9 +2,9 @@
 
 
 /*
+rever as distâncias 
+
 ver:
-alinhar os elementos do cabeçalho na versão
-a partir 768px.
 
 rever para saber se não entendi a questão
 da relatividade. talvez seja isso que esteja 
@@ -42,6 +42,11 @@ o footer não ficou exatamente igual no mobile.
 
 /*html elements*/
 
+#sign-up-section-link {
+    width: 1200px;
+    border: 1px solid black;
+}
+
 h1 {
     /*width: 131px; height: 27px;*/
     font-size: 18px;
@@ -74,6 +79,7 @@ footer p {
     width: 100%;
     height: 90px;
     position: fixed;
+    margin: 0 auto;
     color: var(--white-color);
     background-color: var(--blue-color);
     display: flex;
@@ -89,7 +95,7 @@ footer p {
 }
 
 .news-latest-title {
-    width: 202px; 
+    width: 202px;
     height: 36px;
     font-size: 24px;
     margin: 0 auto;
@@ -335,10 +341,11 @@ footer p {
 }
 
 .footer-container {
-    width: 100%;/*320px;*/
+    width: 100%;
     height: 302px;
     background: var(--footer-color);
     margin-top: 40px;
+    
 }
 
 .elements-footer-groups {
@@ -385,7 +392,8 @@ footer p {
     h1 {
         /*width: 174px; height: 36px;*/
         font-size: 24px;
-        margin: 27px 27px 0 105px;
+        /*margin: 27px 27px 0 105px;*/
+        margin-right: 482;
     }
     header a {
         /* width: 57px; height: 21px;*/
@@ -394,19 +402,24 @@ footer p {
         font-size: 14px;
         font-weight: 500;
         margin: 34px 19px 29px 0;
-    /ao invés de 19px é 35px segundo o figma*/
+        /ao invés de 19px é 35px segundo o figma*/
     }
     header img {
-        margin-right: 105px;
+        /*margin-right: 105px;*/
     }
     /*css classses*/
     
     .header-container {
-        /*display: flex;*/
+        padding: 0 105px;
+        display: flex;
+        /*flex-direction: row;*/
+        justify-content: space-around;
+        align-items: center;
     }
     
     .right-header-elements {
         display: flex;
+        margin: 0;
     }
 
     header li {
@@ -417,6 +430,7 @@ footer p {
         margin-top: 0;
         margin-bottom: 0;
         display: flex;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -606,3 +620,4 @@ footer p {
     }
   
 }
+
