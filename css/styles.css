@@ -2,7 +2,13 @@
 
 
 /*
-rever as distâncias 
+ver como corrijo o header para ficar como
+o footer quanto ao limite de 1200px na largura.
+Para isso fazer o seguinte:
+no html:
+criar um div dentro do nav com uma classe (elements-header-groups);
+fazer como fiz no footer: medidas na classe do nav e display etc. na classe do div.
+se deixar as margens laterais, ver os px.
 
 ver:
 
@@ -42,10 +48,6 @@ o footer não ficou exatamente igual no mobile.
 
 /*html elements*/
 
-#sign-up-section-link {
-    width: 1200px;
-    border: 1px solid black;
-}
 
 h1 {
     /*width: 131px; height: 27px;*/
@@ -389,11 +391,20 @@ footer p {
 
 @media(min-width: 768px) {
     /*html elements*/
+    
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    
     h1 {
         /*width: 174px; height: 36px;*/
         font-size: 24px;
         /*margin: 27px 27px 0 105px;*/
-        margin-right: 482;
+        margin-left: 0;
+        margin-right: 0;
     }
     header a {
         /* width: 57px; height: 21px;*/
@@ -405,21 +416,21 @@ footer p {
         /ao invés de 19px é 35px segundo o figma*/
     }
     header img {
-        /*margin-right: 105px;*/
+        margin-right: 0;
     }
     /*css classses*/
     
     .header-container {
-        padding: 0 105px;
+        height: 90px;
+        padding: 0 90px;
         display: flex;
-        /*flex-direction: row;*/
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
     
     .right-header-elements {
         display: flex;
-        margin: 0;
+        margin-left: 0;
     }
 
     header li {
@@ -540,6 +551,7 @@ footer p {
         height: 522px;
         box-shadow: none;
         padding: 52px 0 52px 73px;
+        margin: 0 auto;
         margin-bottom: 61px;
     }
 
@@ -577,7 +589,7 @@ footer p {
 
     .footer-container {
         height: 190px;
-        padding: 0 105px;
+        padding: 0 /*105px*/;
         margin-top: 61px;
     }
     
