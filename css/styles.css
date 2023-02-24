@@ -48,18 +48,17 @@ o footer não ficou exatamente igual no mobile.
 
 /*html elements*/
 
-
 h1 {
     /*width: 131px; height: 27px;*/
     font-size: 18px;
     line-height: 27px;
-    margin: 32px 179px 31px 10px;
+    /*margin: 32px 179px 31px 10px;*/
 }
 
 header img {
     width: 62px;
     /*height: 62px;*/
-    margin: 14px 14px 10px 0;
+    /*margin: 14px 14px 10px 0;*/
 }
 
 span {
@@ -79,13 +78,16 @@ footer p {
 
 .header-container {
     width: 100%;
+    max-width: 1200px;
     height: 90px;
     position: fixed;
     margin: 0 auto;
     color: var(--white-color);
     background-color: var(--blue-color);
+    padding: 0 14px 0 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-links {
@@ -347,7 +349,6 @@ footer p {
     height: 302px;
     background: var(--footer-color);
     margin-top: 40px;
-    
 }
 
 .elements-footer-groups {
@@ -393,8 +394,8 @@ footer p {
     /*html elements*/
     
     body {
-        max-width: 1200px;
         margin: 0 auto;
+        max-width: 1200px;
         border-left: 1px solid black;
         border-right: 1px solid black;
     }
@@ -403,34 +404,33 @@ footer p {
         /*width: 174px; height: 36px;*/
         font-size: 24px;
         /*margin: 27px 27px 0 105px;*/
-        margin-left: 0;
-        margin-right: 0;
     }
+
+    header img {
+        margin-left: 10px;
+    }
+
     header a {
         /* width: 57px; height: 21px;*/
         color: var(--white-color);
         text-decoration: none;
         font-size: 14px;
         font-weight: 500;
-        margin: 34px 19px 29px 0;
-        /ao invés de 19px é 35px segundo o figma*/
     }
-    header img {
-        margin-right: 0;
-    }
+    
     /*css classses*/
     
     .header-container {
         height: 90px;
-        padding: 0 90px;
+        padding: 0 90px; /* 150px */
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     
     .right-header-elements {
+        height: 90px;
         display: flex;
-        margin-left: 0;
     }
 
     header li {
@@ -438,11 +438,18 @@ footer p {
     }
         
     .header-links {
-        margin-top: 0;
-        margin-bottom: 0;
+        width: 239px;
+        height: 90px;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
+    }
+
+    .header-img {
+        width: 101px;
+        display: flex;
+        justify-content: flex-end;
     }
 
     .news-latest-title {
@@ -589,7 +596,7 @@ footer p {
 
     .footer-container {
         height: 190px;
-        padding: 0 /*105px*/;
+        padding: 0 90px; /* 150 */
         margin-top: 61px;
     }
     
@@ -597,7 +604,7 @@ footer p {
         height: 190px;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     
     .footer-elements {
@@ -605,14 +612,13 @@ footer p {
     }
     
     .footer-links {
-        margin: 74px 0;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .copyright {
-        margin: 84px 5px;
+        margin: 0 5px;
     }
         
     .link1-footer {
