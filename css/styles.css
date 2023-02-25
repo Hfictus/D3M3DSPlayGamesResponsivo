@@ -2,25 +2,11 @@
 
 
 /*
-ver como corrijo o header para ficar como
-o footer quanto ao limite de 1200px na largura.
-Para isso fazer o seguinte:
-no html:
-criar um div dentro do nav com uma classe (elements-header-groups);
-fazer como fiz no footer: medidas na classe do nav e display etc. na classe do div.
-se deixar as margens laterais, ver os px.
 
 ver:
-
-rever para saber se não entendi a questão
-da relatividade. talvez seja isso que esteja 
-faltando para que o link do cabeçalho
-não fique em duas linhas ao se manter as
-medidas indicadas pelo figma quando se 
-verifica a versão mobile (margin-right: 35px;).
-
+a partir de sign-up nos dois tamanhos
 obs.: 
-tive de adaptar alguns valores no header e em sign-up;
+tive de adaptar alguns valores em sign-up;
 o footer não ficou exatamente igual no mobile.
 
 */
@@ -101,10 +87,10 @@ footer p {
 .news-latest-title {
     width: 202px;
     height: 36px;
-    font-size: 24px;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 8px;
+    font-size: 24px;
     color: var(--title-section1-color);
 }
 
@@ -231,10 +217,13 @@ footer p {
 .game-producer {
     /*width: 207px; height: 21px;*/
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 21px;
     color: var(--title-section1-color);
-    margin: 0 46px 0 47px;
+    /*margin: 0 46px 0 47px;*/
+    width: 320px;
+    display: flex;
+    justify-content: center;
 }
 
 .game-price {
@@ -391,6 +380,11 @@ footer p {
 
 
 @media(min-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
     /*html elements*/
     
     body {
@@ -406,10 +400,6 @@ footer p {
         /*margin: 27px 27px 0 105px;*/
     }
 
-    header img {
-        margin-left: 10px;
-    }
-
     header a {
         /* width: 57px; height: 21px;*/
         color: var(--white-color);
@@ -422,10 +412,7 @@ footer p {
     
     .header-container {
         height: 90px;
-        padding: 0 90px; /* 150px */
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        padding: 0 100px; /* 150px */
     }
     
     .right-header-elements {
@@ -441,7 +428,6 @@ footer p {
         width: 239px;
         height: 90px;
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
@@ -456,7 +442,6 @@ footer p {
         width: 302px; 
         height: 54px;
         font-size: 36px;
-        margin: 0 auto;
         margin-top: 40px;
         margin-bottom: 40px;
         color: var(--title-section1-color);
@@ -504,7 +489,7 @@ footer p {
     }
     
     .news-text {
-        width: 909px; height: 92px;*/
+        /*width: 909px; height: 92px;*/
         color: var(--title-section1-color);
         margin: 0 41px 7px 0;
     }
