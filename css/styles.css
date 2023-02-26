@@ -4,11 +4,10 @@
 /*
 
 ver:
-a partir de sign-up nos dois tamanhos
+footer nos dois tamanhos
 obs.: 
 tive de adaptar alguns valores em sign-up;
-o footer não ficou exatamente igual no mobile.
-
+o footer não ficou exatamente igual no mobile (parece).
 */
 
 * {
@@ -276,7 +275,6 @@ footer p {
     border: 1px solid var(--title-section1-color);
     border-radius: 4px;
     padding: 13px 0 13px 22px;
-    margin: 0 20px 18px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -299,7 +297,6 @@ footer p {
 .radio-checkbox {
     border-radius: 50%;
     width: 23px;
-    height: 23px;
     background: var(--white-color);
     border: 1px solid var(--radio-checkbox-color);
     margin: 0 7px 7px 0;
@@ -316,7 +313,6 @@ footer p {
     font-size: 18px;
     line-height: 27px;
     color: var(--white-color);
-    
 }
 
 .sec3-reset-btn {
@@ -576,7 +572,6 @@ footer p {
 
     .sec3-reset-btn {
         top: 2016px;
-        margin: 0;
     }
 
     .footer-container {
@@ -605,22 +600,7 @@ footer p {
     .copyright {
         margin: 0 5px;
     }
-        
-    .link1-footer {
-        margin: 0;
-    }
     
-    .link2-footer {
-        margin: 0;
-    }
-    
-    .link3-footer {
-        margin: 0;
-    }
-    
-    .link4-footer {
-        margin: 0;
-    }
   
 }
 
