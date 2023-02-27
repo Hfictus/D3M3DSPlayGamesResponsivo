@@ -4,9 +4,11 @@
 /*
 
 ver:
-footer nos dois tamanhos
+como alinhar o footer no mobile;
+como corrigir a aparição dos elementos no footer na transição.
+relatividade; 
 obs.: 
-tive de adaptar alguns valores em sign-up;
+tive de adaptar alguns valores em header, sign-up e footer;
 o footer não ficou exatamente igual no mobile (parece).
 */
 
@@ -69,7 +71,15 @@ footer p {
     margin: 0 auto;
     color: var(--white-color);
     background-color: var(--blue-color);
-    padding: 0 14px 0 10px;
+    /*padding: 0 3.75vw;*/
+    /*padding: 0 14px 0 10px;*/
+    
+}
+
+.header-elements {
+    width: 300px;
+    height: 90px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,6 +91,7 @@ footer p {
 
 .section1 {
     padding-top: 90px;
+    /*padding: 0 3.12vw;*/
 }
 
 .news-latest-title {
@@ -376,10 +387,7 @@ footer p {
 
 
 @media(min-width: 768px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
+    
     
     /*html elements*/
     
@@ -406,11 +414,11 @@ footer p {
     
     /*css classses*/
     
-    .header-container {
-        height: 90px;
-        padding: 0 100px; /* 150px */
-    }
     
+    .header-elements {
+        width: 990px;
+    }
+       
     .right-header-elements {
         height: 90px;
         display: flex;
@@ -576,16 +584,12 @@ footer p {
 
     .footer-container {
         height: 190px;
-        padding: 0 90px; /* 150 */
+        /*padding: 0 150;*/
         margin-top: 61px;
     }
     
-    .elements-footer-groups {
-        height: 190px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+    
+    
     
     .footer-elements {
         font-size: 12px;
@@ -597,10 +601,7 @@ footer p {
         align-items: center;
     }
 
-    .copyright {
-        margin: 0 5px;
     }
-    
-  
+
 }
 
