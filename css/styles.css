@@ -4,8 +4,6 @@
 /*
 
 ver:
-como alinhar o footer no mobile;
-como corrigir a aparição dos elementos no footer na transição.
 relatividade; 
 obs.: 
 tive de adaptar alguns valores em header, sign-up e footer;
@@ -71,9 +69,8 @@ footer p {
     margin: 0 auto;
     color: var(--white-color);
     background-color: var(--blue-color);
+    padding: 0 14px 0 10px;
     /*padding: 0 3.75vw;*/
-    /*padding: 0 14px 0 10px;*/
-    
 }
 
 .header-elements {
@@ -342,12 +339,17 @@ footer p {
 
 .footer-container {
     width: 100%;
+    max-width: 1200px;
     height: 302px;
     background: var(--footer-color);
+    margin: 0 auto;
     margin-top: 40px;
 }
 
 .elements-footer-groups {
+    width: 320px;
+    height: 302px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -363,9 +365,11 @@ footer p {
 }
 
 .footer-links {
+    /*height: 190px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
+    /*justify-content: center;*/
 }
 
 .link1-footer {
@@ -410,6 +414,10 @@ footer p {
         text-decoration: none;
         font-size: 14px;
         font-weight: 500;
+    }
+
+    footer p {
+        margin: 0;
     }
     
     /*css classses*/
@@ -588,20 +596,36 @@ footer p {
         margin-top: 61px;
     }
     
-    
+    .elements-footer-groups {
+        width: 990px;
+        height: 190px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /*align-items: center;*/
+    }
     
     
     .footer-elements {
         font-size: 12px;
     }
+        
+    .link1-footer {
+        margin: 0;
+    }
     
-    .footer-links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .link2-footer {
+        margin: 0;
     }
-
+    
+    .link3-footer {
+        margin: 0;
     }
+    
+    .link4-footer {
+        margin: 0;
+    }
+    
 
 }
 
