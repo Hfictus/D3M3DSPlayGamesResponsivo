@@ -35,7 +35,7 @@ o footer não ficou exatamente igual no mobile (parece).
 
 h1 {
     /*width: 131px; height: 27px;*/
-    font-size: 18px;
+    font-size: 1.125rem;/*18px*/
     line-height: 27px;
     /*margin: 32px 179px 31px 10px;*/
 }
@@ -97,7 +97,7 @@ footer p {
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;/*24px*/
     color: var(--title-section1-color);
 }
 
@@ -389,12 +389,14 @@ footer p {
 }
 
 
-
 @media(min-width: 768px) {
     
     
     /*html elements*/
-    
+    html {
+        font-size: 21.33333333333333px;
+    }
+
     body {
         margin: 0 auto;
         max-width: 1200px;
@@ -404,7 +406,7 @@ footer p {
     
     h1 {
         /*width: 174px; height: 36px;*/
-        font-size: 2rem;/*24px*/
+        font-size: 1.125rem;/*24px*/
         /*margin: 27px 27px 0 105px;*/
     }
 
@@ -453,7 +455,7 @@ footer p {
     .news-latest-title {
         width: 302px; 
         height: 54px;
-        font-size: 2rem;/*36px*/
+        font-size: 1.5rem;/*36px*/
         margin-top: 40px;
         margin-bottom: 40px;
         color: var(--title-section1-color);
