@@ -49,8 +49,36 @@ label {
     line-height: 24px;
 }
 
-footer p {
-    margin: 0 33px 50px 37px;
+footer {
+    width: 100%;
+    max-width: 1200px;
+    height: 300px;
+    background: var(--footer-color);
+    padding: 28px 0 30px 0;
+    margin-top: 40px;
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 21px;
+    text-decoration: none;
+    
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+footer div p {
+    margin: 37px 33px 37px 37px;
+    text-align: center;
+}
+
+footer a {
+    color: var(--white-color);
+    text-decoration: none;
 }
 
 /*css classes*/
@@ -327,53 +355,16 @@ nav {
     margin: 0 30px 33px 18px;
 }
 
-.footer-container {
-    width: 100%;
-    max-width: 1200px;
-    height: 300px;
-    background: var(--footer-color);
-    margin-top: 40px;
-}
 
-.elements-footer-groups {
-    width: 320px;
-    height: 302px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.footer-elements {
-    color: var(--white-color);
-    font-weight: 400;
-    font-size: 0.875rem;
-    line-height: 21px;
-    text-decoration: none;
-}
-
-.footer-links {
-    /*height: 190px;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.link1-footer {
+/*link1-footer:
     margin: 28px 106px 0 103px;
-}
-
-.link2-footer {
+  link2-footer:
     margin: 3px 110px 47.32px 106px;
-}
-
-.link3-footer {
+  link3-footer:
     margin: 0 81px 0 78px;
-}
-
-.link4-footer {
+  link4-footer:
     margin: 3px 109px 30.32px 107px;
-}
+*/
 
 
 @media(min-width: 768px) {
