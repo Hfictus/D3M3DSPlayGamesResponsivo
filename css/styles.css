@@ -36,7 +36,7 @@ h1 {
 header img {
     width: 62px;
     /*height: 62px;*/
-    margin-left: 107px;
+    /*margin-left: 107px;*/
     /*margin: 14px 14px 10px 0;*/
 }
 
@@ -66,10 +66,9 @@ nav {
     color: var(--white-color);
     background-color: var(--blue-color);
     padding: 0 10px;
-    margin: 0 auto;
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     /*padding: 0 3.75vw;*/
 }
@@ -331,7 +330,7 @@ nav {
 .footer-container {
     width: 100%;
     max-width: 1200px;
-    height: 302px;
+    height: 300px;
     background: var(--footer-color);
     margin-top: 40px;
 }
