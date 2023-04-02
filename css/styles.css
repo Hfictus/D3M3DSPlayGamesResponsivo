@@ -60,10 +60,6 @@ footer p {
     margin: 0 auto;
 }
 
-header {
-    background-color: var(--sections-buttons);
-}
-
 nav {
     width: 100%;
     max-width: 1200px;
