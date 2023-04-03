@@ -68,7 +68,7 @@ footer {
     width: 320px;
     height: 302px;
     max-width: 1200px;
-    margin: 0 auto;
+    
     background-color: var(--footer-color);
     color: var(--white-color);
     font-size: 0.875rem;
