@@ -371,11 +371,6 @@ footer a {
 */
 
 
-@media(min-width: 320px) {
-    footer {
-        width: 100%;
-    }
-}
 
 @media(min-width: 768px) {
     
