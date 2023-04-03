@@ -344,7 +344,7 @@ footer a {
 }
 
 .footer-container {
-    width; 100%;
+    /*width; 100%;*/
     height: 242px;
     display: flex;
     flex-direction: column;
@@ -353,8 +353,6 @@ footer a {
 }
 
 .footer-container div {
-    /*width: 100%;*/
-    /*max-width: 1200px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
