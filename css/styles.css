@@ -65,8 +65,7 @@ nav {
 
 
 footer {
-    width: 100%;
-    min-width: 320px;
+    width: 320px;
     height: 302px;
     max-width: 1200px;
     
@@ -371,6 +370,12 @@ footer a {
     margin: 3px 109px 30.32px 107px;
 */
 
+
+@media(min-width: 320px) {
+    footer {
+        width: 100%;
+    }
+}
 
 @media(min-width: 768px) {
     
