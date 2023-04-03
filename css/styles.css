@@ -51,6 +51,7 @@ label {
 
 footer {
     width: 100%;
+    max-width: 1200px;
     height: 302px;
     max-width: 1200px;
     background-color: var(--footer-color);
@@ -77,8 +78,6 @@ footer {
     align-items: center;
     text-align: center;
 }
-
-
 
 footer a {
     text-decoration: none;
