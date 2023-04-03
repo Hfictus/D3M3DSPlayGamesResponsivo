@@ -51,35 +51,40 @@ label {
 
 footer {
     width: 100%;
+    height: 302px;
     max-width: 1200px;
-    height: 300px;
-    background: var(--footer-color);
-    padding: 28px 0 30px 0;
-    margin-top: 40px;
+    background-color: var(--footer-color);
     color: var(--white-color);
-    font-weight: 400;
     font-size: 0.875rem;
+    padding: 30px 10px;
+    margin-top: 40px;
+    font-weight: 400;
     /*line-height: 21px;*/
-    text-decoration: none;
-    
 }
 
-footer div {
+.footer-container {
+    width; 100%;
+    height: 242px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content: space-between;
 }
 
-footer div p {
-    margin: 37px 33px 37px 37px;
+.footer-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
+
+
 footer a {
-    color: var(--white-color);
     text-decoration: none;
+    color: var(--white-color);
 }
+
 
 /*css classes*/
 
@@ -355,6 +360,33 @@ nav {
     margin: 0 30px 33px 18px;
 }
 
+.container {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-company {
+    margin: 35px 0;
+}
+
+.footer-links {
+    display: flex;
+    flex-directioin: column;
+    align-items: center;
+}
 
 /*link1-footer:
     margin: 28px 106px 0 103px;
