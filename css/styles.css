@@ -49,50 +49,6 @@ label {
     line-height: 24px;
 }
 
-footer {
-    width: 100%;
-    max-width: 1200px;
-    height: 302px;
-    max-width: 1200px;
-    background-color: var(--footer-color);
-    color: var(--white-color);
-    font-size: 0.875rem;
-    padding: 30px 10px;
-    margin-top: 40px;
-    font-weight: 400;
-    /*line-height: 21px;*/
-}
-
-.footer-container {
-    width; 100%;
-    height: 242px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.footer-container div {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-footer a {
-    text-decoration: none;
-    color: var(--white-color);
-}
-
-
-/*css classes*/
-
-.center-position {
-    margin: 0 auto;
-}
-
 nav {
     width: 100%;
     max-width: 1200px;
@@ -107,6 +63,32 @@ nav {
     /*padding: 0 3.75vw;*/
 }
 
+
+footer {
+    width: 320px;
+    height: 302px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--footer-color);
+    color: var(--white-color);
+    font-size: 0.875rem;
+    padding: 30px 10px;
+    margin-top: 40px;
+    font-weight: 400;
+    /*line-height: 21px;*/
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+
+/*css classes*/
+
+.center-position {
+    margin: 0 auto;
+}
 
 .header-links {
     display: none;
@@ -361,33 +343,25 @@ nav {
     margin: 0 30px 33px 18px;
 }
 
-.container {
-    width: 100%;
-    max-width: 990px;
-    margin: 0 auto;
-}
-
 .footer-container {
+    width; 100%;
+    height: 242px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
-.footer-social {
+.footer-container div {
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-.footer-company {
-    margin: 35px 0;
-}
 
-.footer-links {
-    display: flex;
-    flex-directioin: column;
-    align-items: center;
-}
 
 /*link1-footer:
     margin: 28px 106px 0 103px;
