@@ -26,10 +26,40 @@
 
 /*html elements*/
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 320px;
+    max-width: 1200px;
+    height: 90px;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    padding: 0 10px;
+    position: fixed;
+    /*padding: 0 3.75vw;*/
+}
+
+nav {
+    /*widht: 320px;*/
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: none;
+}
+
 h1 {
     /*width: 131px; height: 27px;*/
     font-size: 1.125rem;/*18px*/
     line-height: 27px;
+    margin-left: 10px;
     /*margin: 32px 179px 31px 10px;*/
 }
 
@@ -40,6 +70,47 @@ header img {
     /*margin: 14px 14px 10px 0;*/
 }
 
+section#news-section-link {
+    padding-top: 130px;
+}
+
+section#news-section-link h2 {
+    width: 202px;
+    height: 36px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    font-size: 1.5rem;/*24px*/
+    color: var(--title-section1-color);
+    line-height: 36px;
+}
+
+section#news-section-link h3 {
+    /*width: 275px; height: 24px;*/
+    font-size: 1rem;
+    line-height: 24px;
+    color: var(--blue-color);
+    margin: 0 13px 3px 12px;
+}
+
+section#news-section-link h4 {
+    /*width: 274.85px; height: 54px;*/
+    font-size: 0.75rem;
+    line-height: 18px;
+    color: var(--title-section1-color);
+    margin: 0 12.15px 3px 13px;
+}
+
+section#news-section-link a {
+    /*width: 272px; height: 21px;*/
+    font-size: 0.875rem;
+    line-height: 21px;
+    color: var(--sections-buttons);
+    margin: 0 16px 0 12px;
+    text-decoration: none;
+}
+
+
+
 span {
     color: var(--blue-color);
 }
@@ -49,19 +120,7 @@ label {
     line-height: 24px;
 }
 
-nav {
-    width: 100%;
-    max-width: 1200px;
-    height: 90px;
-    color: var(--white-color);
-    background-color: var(--blue-color);
-    padding: 0 10px;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /*padding: 0 3.75vw;*/
-}
+
 
 
 footer {
@@ -86,30 +145,8 @@ footer a {
 
 /*css classes*/
 
-.center-position {
-    margin: 0 auto;
-}
-
-.header-links {
-    display: none;
-}
 
 
-
-.section1 {
-    padding-top: 90px;
-    /*padding: 0 3.12vw;*/
-}
-
-.news-latest-title h2 {
-    width: 202px;
-    height: 36px;
-    margin-top: 40px;
-    margin-bottom: 8px;
-    font-size: 1.5rem;/*24px*/
-    color: var(--title-section1-color);
-    line-height: 36px;
-}
 
 .news-latest-container {
     width: 300px;
@@ -122,36 +159,15 @@ footer a {
     margin-bottom: 28px;
 }
 
-.news-title3 {
-    /*width: 275px; height: 24px;*/
-    font-size: 1rem;
-    line-height: 24px;
-    color: var(--blue-color);
-    margin: 0 13px 3px 12px;
-}
-
-.news-title4 {
-    /*width: 274.85px; height: 54px;*/
-    font-size: 0.75rem;
-    line-height: 18px;
-    color: var(--title-section1-color);
-    margin: 0 12.15px 3px 13px;
-}
-
-.line {
-    width: 274.85px;
-    height: 3px;
-    border-top: 1px solid var(--blue-color);
-    margin: 0 11.24px 1px 13px;
-}
-
 .news-date {
-    /*width: 274.85px; height: 15px;*/
+    width: 274.85px; /*height: 15px;*/
     font-weight: 400;
     font-size: 0.625rem;
     line-height: 15px;
     color: var(--blue-color);
-    margin: 0 12.15px 12px 13px;
+    border-top: 1px solid var(--blue-color);
+    padding-top: 3px;
+    margin: 0 11.24px 1px 13px;
 }
 
 .news-text {
@@ -163,14 +179,6 @@ footer a {
     margin: 0 12px;
 }
 
-.read-more {
-    /*width: 272px; height: 21px;*/
-    font-size: 0.875rem;
-    line-height: 21px;
-    color: var(--sections-buttons);
-    margin: 0 16px 0 12px;
-    text-decoration: none;
-}
 
 .sec1-btn {
     width: 244px;
@@ -181,8 +189,8 @@ footer a {
     font-size: 1.125rem;
     color: var(--white-color);
     line-height: 27px;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
     margin-bottom: 40px;
     display: block;
 }
