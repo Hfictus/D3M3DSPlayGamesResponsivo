@@ -72,6 +72,9 @@ header img {
 
 section#news-section-link {
     padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section#news-section-link h2 {
@@ -109,7 +112,26 @@ section#news-section-link a {
     text-decoration: none;
 }
 
+section#news-section-link button {
+    width: 244px;
+    height: 67px;
+    background-color: var(--sections-buttons);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.125rem;
+    color: var(--white-color);
+    line-height: 27px;
+    margin-bottom: 40px;
+    display: block;
+}
 
+section#games-section-link {
+    width: 320px;
+    height: 1176px;
+    background-color: var(--gray-color);
+    padding: 40px 10px 0px 10px;
+    margin-bottom: 40px;
+}   
 
 span {
     color: var(--blue-color);
@@ -120,14 +142,10 @@ label {
     line-height: 24px;
 }
 
-
-
-
 footer {
     width: 320px;
     height: 302px;
     max-width: 1200px;
-    
     background-color: var(--footer-color);
     color: var(--white-color);
     font-size: 0.875rem;
@@ -179,28 +197,8 @@ footer a {
     margin: 0 12px;
 }
 
-
-.sec1-btn {
-    width: 244px;
-    height: 67px;
-    background-color: var(--sections-buttons);
-    border: none;
-    border-radius: 8px;
-    font-size: 1.125rem;
-    color: var(--white-color);
-    line-height: 27px;
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    margin-bottom: 40px;
-    display: block;
-}
-
 .games-container {
-    width: 320px;
-    height: 1176px;
-    background-color: var(--gray-color);
-    padding: 40px 10px 0px 10px;
-    margin-bottom: 40px;
+    
 }
 
 .games-title {
