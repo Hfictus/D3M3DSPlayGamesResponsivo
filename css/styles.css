@@ -133,6 +133,28 @@ section#games-section-link {
     margin-bottom: 40px;
 }   
 
+section#games-section-link h2 {
+    /*width: 75px; height: 36px;*/
+    font-size: 1.5rem;
+    line-height: 36px;
+    color: var(--blue-color);
+    margin: 0 123px 28px 122px;
+}
+
+section#games-section-link img {
+    width: 300px;
+    height: 168.54px;
+    border-radius: 8px 8px 0 0;
+}
+
+section#games-section-link h3 {
+    /*width: 220px; height: 27px;*/
+    font-size: 1.125rem;
+    line-height: 27px;
+    color: var(--title-section1-color);
+    margin: 27.46px 40px 0 40px;
+}
+
 span {
     color: var(--blue-color);
 }
@@ -141,6 +163,17 @@ label {
     font-weight: 400;
     line-height: 24px;
 }
+
+section#sign-up-section-link h2 {
+    /*width: 231px; 
+    height: 36px;*/
+    font-size: 1.5rem;
+    line-height: 36px;
+    color: var(--title-section1-color);
+    margin-bottom: 16px;
+    text-align: center;
+}
+
 
 footer {
     width: 320px;
@@ -160,11 +193,7 @@ footer a {
     color: var(--white-color);
 }
 
-
 /*css classes*/
-
-
-
 
 .news-latest-container {
     width: 300px;
@@ -197,54 +226,23 @@ footer a {
     margin: 0 12px;
 }
 
-.games-container {
-    
-}
-
-.games-title {
-    /*width: 75px; height: 36px;*/
-    font-size: 1.5rem;
-    line-height: 36px;
-    color: var(--blue-color);
-    margin: 0 123px 28px 122px;
-}
-
-.games-img {
-    width: 300px;
-    height: 168.54px;
-    border-radius: 8px 8px 0 0;
-}
-
 .text-and-img {
     width: 300px;
     height: 326.02px;
-    background-color: var(--white-color);
-    box-shadow? 0 4px 20px rgba(0,0,0,0.25)/
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 27px;
-}
-
-.game-title {
-    /*width: 220px; height: 27px;*/
-    font-size: 1.125rem;
-    line-height: 27px;
-    color: var(--title-section1-color);
-    margin: 27.46px 40px 0 40px;
+    border-radius: 8px;
+    background-color: var(--white-color);
+    box-shadow? 0 4px 20px rgba(0,0,0,0.25);
 }
 
 .game-producer {
     /*width: 207px; height: 21px;*/
-    font-size: 0.75rem;
+    font-size: 0.75rem; 
     font-weight: 700;
     line-height: 21px;
     color: var(--title-section1-color);
+    text-align: center;
     /*margin: 0 46px 0 47px;*/
-    width: 320px;
-    display: flex;
-    justify-content: center;
 }
 
 .game-price {
@@ -253,15 +251,6 @@ footer a {
     line-height:54px;
     color: var(--blue-color);
     margin: 13px 124px 15px 124px;
-}
-
-.sign-up-section-title {
-    width: 231px; 
-    height: 36px;
-    font-size: 1.5rem;
-    line-height: 36px;
-    color: var(--title-section1-color);
-    margin-bottom: 16px;
 }
 
 .sign-up-container {
