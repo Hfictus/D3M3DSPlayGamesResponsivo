@@ -70,6 +70,10 @@ header img {
     /*margin: 14px 14px 10px 0;*/
 }
 
+header a {
+    display: none;
+}
+
 section#news-section-link {
     padding-top: 130px;
     display: flex;
