@@ -40,7 +40,6 @@ header {
     color: var(--white-color);
     background-color: var(--blue-color);
     padding: 0 10px;
-    margin: 0 auto;
     /*padding: 0 3.75vw;*/
 }
 
@@ -76,7 +75,6 @@ header img {
 
 
 section#news-section-link {
-    padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,6 +126,8 @@ section#news-section-link button {
     line-height: 27px;
     margin-bottom: 40px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section#games-section-link {
@@ -220,11 +220,13 @@ footer a {
     color: var(--blue-color);
     border-top: 1px solid var(--blue-color);
     padding-top: 3px;
-    margin: 0 11.24px 1px 13px;
+    margin: 0 auto 1px auto;
+    /*margin: 0 11.24px 1px 13px;*/
 }
 
 .news-text {
-    /*width: 276px; height: 329px;*/
+    width: 276px;
+    /*height: 329px;*/
     font-weight: 400;
     font-size: 0.625rem;
     line-height: 15px;
