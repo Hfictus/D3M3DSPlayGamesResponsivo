@@ -34,7 +34,6 @@ body {
 
 header {
     width: 100%;
-    max-width: 320px;
     height: 90px;
     color: var(--white-color);
     background-color: var(--blue-color);
@@ -43,7 +42,9 @@ header {
 }
 
 nav {
-    widht: 100%;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
     height: 90px;
     display: flex;
     justify-content: space-between;
