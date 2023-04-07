@@ -34,6 +34,7 @@ body {
 
 header {
     width: 100%;
+    max-width: 1200px;
     height: 90px;
     color: var(--white-color);
     background-color: var(--blue-color);
