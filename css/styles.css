@@ -43,7 +43,7 @@ header {
 }
 
 nav {
-    /*widht: 320px;*/
+    widht: 100%;
     height: 90px;
     display: flex;
     justify-content: space-between;
