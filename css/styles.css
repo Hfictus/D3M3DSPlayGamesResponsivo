@@ -34,7 +34,6 @@ body {
 
 header {
     width: 100%;
-    /*width: 320px;*/
     height: 90px;
     color: var(--white-color);
     background-color: var(--blue-color);
@@ -77,41 +76,19 @@ header img {
     /*margin: 14px 14px 10px 0;*/
 }
 
-
-
-
-
-section#news-section-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+section {
+    padding: 40px 10px;
 }
 
-section#news-section-link h2 {
-    width: 202px;
-    height: 36px;
-    margin-top: 40px;
-    margin-bottom: 8px;
+section#news-section-link div, h2 {
+    /*width: 202px; height: 36px; margin-top: 40px; line-height: 36px;*/
+    margin-bottom: 10px;
     font-size: 1.5rem;/*24px*/
     color: var(--title-section1-color);
-    line-height: 36px;
+    text-align: center;
 }
 
-section#news-section-link h3 {
-    /*width: 275px; height: 24px;*/
-    font-size: 1rem;
-    line-height: 24px;
-    color: var(--blue-color);
-    margin: 0 13px 3px 12px;
-}
 
-section#news-section-link h4 {
-    /*width: 274.85px; height: 54px;*/
-    font-size: 0.75rem;
-    line-height: 18px;
-    color: var(--title-section1-color);
-    margin: 0 12.15px 3px 13px;
-}
 
 section#news-section-link a {
     /*width: 272px; height: 21px;*/
@@ -208,15 +185,44 @@ footer a {
 
 /*css classes*/
 
-.news-latest-container {
-    width: 300px;
+.container {
+        width: 100%;
+        max-width: 990px;
+        margin: 0 auto;
+}
+
+.news-card {
+    width: 100%;
+    max-width: 990px;
     height: 493px;
-    border-radius: 8px;
     box-shadow: 0px 4px 20px rgba(0,0,0,0.50);
-    background: var(--gray-color);
-    padding-top: 16px;
-    padding-bottom: 12px;
-    margin-bottom: 28px;
+    background-color: var(--gray-color);
+    border-radius: 8px;
+    padding: 16px 12px 12px 12px;
+    margin-bottom: 30px;
+}
+
+.news-card-header h3 {
+    /*width: 275px; height: 24px; line-height: 24px; margin: 0 13px 3px 12px; */
+    font-size: 1rem;
+    color: var(--blue-color);
+}
+
+.news-card-header h4 {
+    font-size: 0.75rem;/*12px*/
+    color: var(--footer-color);
+    border-bottom: 1px solid var(--blue-color);
+}
+
+.news-card-header p {
+    /*width: 274.85px; height: 15px;*/
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 15px;
+    color: var(--blue-color);
+    /*margin-left: 0;*/
+    margin-bottom: 1px;
+    /*margin: 0 11.24px 1px 13px;*/
 }
 
 .news-date {
@@ -232,8 +238,9 @@ footer a {
 }
 
 .news-text {
-    width: 276px;
+    /*width: 276px;*/
     /*height: 329px;*/
+    width: 100%;
     font-weight: 400;
     font-size: 0.625rem;
     line-height: 15px;
