@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-
+/*
+Obs.: continuar em .games-cards-container .
+colocar os 3 cards para textar o display wrap.
+*/
 
 
 * {
@@ -26,11 +29,11 @@
 
 /*html elements*/
 
-body {
+/*body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+}*/
 
 header {
     width: 100%;
@@ -84,21 +87,18 @@ section#news-section-link a {
 }
 
 
-section#games-section-link {
-    /*width: 320px;*/
-    width: 300px;
-    height: 1176px;
-    background-color: var(--gray-color);
+/*section#games-section-link {
     padding: 40px 10px 0px 10px;
     margin-bottom: 40px;
-}   
+}*/   
 
 section#games-section-link h2 {
     /*width: 75px; height: 36px;*/
     font-size: 1.5rem;
     line-height: 36px;
-    color: var(--blue-color);
-    margin: 0 123px 28px 122px;
+    color: var(--title-section1-color);
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 section#games-section-link img {
@@ -160,9 +160,9 @@ footer a {
 }
 
 .container {
-        width: 100%;
-        max-width: 990px;
-        margin: 0 auto;
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
 }
 
 .nav-right {
@@ -232,6 +232,17 @@ footer a {
     line-height: 27px;
     cursor: pointer;
 }
+
+.bg-light-gray {
+    background-color: var(--gray-color);
+}
+
+.games-cards-container {
+    width: 100%;
+    max-width: 990px;
+
+}
+
 
 .text-and-img {
     width: 300px;
