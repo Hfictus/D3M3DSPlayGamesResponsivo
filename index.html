@@ -131,71 +131,72 @@
           </div>  
       </section>
       <section id="sign-up-section-link" class="generic-section">
-        <h2>Faça sua inscrição</h2>
-        <div class="sign-up-container">
-          <form action="#">
-            <div>
-              <input
-                class="user-name"
-                type="text"
-                placeholder="Nome completo"
-              />
-            </div>
-            <div>
-              <input class="user-email" type="email" placeholder="Email" />
-            </div>
-            <div class="game-platforms">
-              <div>
-                <label for="level">Qual sua plataforma preferida?</label>
+        <div class="container">
+          <h2>Faça sua inscrição</h2>
+          <div class="form-card">
+            <form action="#">
+              <div class="form-control-container">
+                <input
+                  class="form-control-input" <!--user name-->
+                  id="ctrl-name"
+                  name="name"
+                  type="text"
+                  placeholder="Nome completo"
+                />
               </div>
-              <div id="level">
-                <div class="input-label input-label-Pc">
-                  <input
-                    class="radio-checkbox"
-                    type="radio"
-                    name="level"
-                    id="name-1"
-                  />
-                  <label for="name-1">PC</label>
+              <div class="form-control-container">
+                <input 
+                  class="form-control-input"
+                  id="ctrl-email"
+                  name="email" 
+                  type="text" 
+                  placeholder="Email" 
+                />
+              </div>
+              <div class="form-control-container">
+                <label 
+                for="ctrl-platform">Qual sua plataforma preferida?</label>
+                <div id="ctrl-platform">
+                  <div>
+                    <input
+                      type="radio"
+                      name="platform"
+                      id="ctrl-platform-1"
+                    />
+                    <label for=""ctrl-platform-1">PC</label>
+                  </div>
+                  <div>
+                    <input
+                      type="radio"
+                      name="platform"
+                      id="ctrl-platform-2"
+                    />
+                    <label for="ctrl-platform-2">Xbox</label>
+                  </div>
+                  <div>
+                    <input
+                      type="radio"
+                      name="platform"
+                      id="ctrl-platform-3"
+                    />
+                    <label for="ctrl-platform-3">Playstation</label>
+                  </div>
                 </div>
-                <div class="input-label">
-                  <input
-                    class="radio-checkbox"
-                    type="radio"
-                    name="level"
-                    id="name-2"
-                  />
-                  <label for="name-2">Xbox</label>
-                </div>
-                <div class="input-label">
-                  <input
-                    class="radio-checkbox"
-                    type="radio"
-                    name="level"
-                    id="name-3"
-                  />
-                  <label for="name-3">Playstation</label>
-                </div>
               </div>
-            </div>
-            <div class="input-label">
-              <input
-                class="radio-checkbox"
-                id="updates"
-                name="updates0"
-                type="checkbox"
-              />
-              <label for="updates">Desejo receber novidades.</label>
-            </div>
-            <div class="sign-up-section-bottons">
-              <div>
-                <input class="sec3-send-btn" type="submit" value="Enviar" />
+              <div class="form-control-containerl">
+                <input
+                  id="ctrl-news"
+                  name="news"
+                  type="checkbox"
+                />
+                <label for="ctrl-news">Desejo receber novidades.</label>
               </div>
-              <div>
-                <input class="sec3-reset-btn" type="reset" value="Limpar" />
+              <div class="form-buttons-container">
+                <input class="btn" type="submit" value="Enviar" />
+                <input class="btn btn-inverse" type="reset" value="Limpar" />
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </section>
     </main>

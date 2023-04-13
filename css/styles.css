@@ -69,14 +69,11 @@ section#news-section-link div, h2 {
     text-align: center;
 }
 
-section#news-section-link a {
-    /*width: 272px; height: 21px;*/
-    font-size: 0.875rem;
-    line-height: 21px;
-    color: var(--sections-buttons);
-    margin: 0 16px 0 12px;
+a {
     text-decoration: none;
+    color: unset;
 }
+
 
 section#games-section-link h2 {
     /*width: 75px; height: 36px;*/
@@ -191,7 +188,7 @@ footer a {
 }
 
 
-.news-text {
+.news-card-body p {
     /*width: 276px;*/
     /*height: 329px;*/
     width: 100%;
@@ -201,6 +198,19 @@ footer a {
     color: var(--title-section1-color);
     margin: 0 12px;
 }
+
+.news-card-body a {
+    /*width: 272px; height: 21px;*/
+    font-size: 0.875rem;
+    line-height: 21px;
+    color: var(--sections-buttons);
+    margin: 0 16px 0 12px;
+}
+
+.news-card-body a:hover {
+    text-decoration: underline;
+}
+
 
 .news-buttom-container {
     display: flex;
