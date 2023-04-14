@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 /*
-Obs.: continuar em .games-cards-container .
-mas antes
-colocar os 3 cards para textar o display wrap.
+continuar na classe btn da seção signup
 */
 
 
@@ -108,12 +106,10 @@ label {
 }
 
 section#sign-up-section-link h2 {
-    /*width: 231px; 
-    height: 36px;*/
+    /*width: 231px; height: 36px; line-height: 36px; */
     font-size: 1.5rem;
-    line-height: 36px;
     color: var(--title-section1-color);
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -272,18 +268,51 @@ footer a {
     /*margin: 13px 124px 15px 124px;*/
 }
 
-.sign-up-container {
-    width: 300px;
-    height: 603px;
+
+
+/* CORRIGIR A PARTIR DAQUI */
+
+.form-card {
+    /* width: 300px; height: 603px;*/
+    max-width: 790px;
+    margin: 0 auto;
     background-color: var(--gray-color);
+    padding: 40px 10px 30px 10px;
     border-radius: 8px;
-    box-shadow: 0px 4px 20px rgba(0,0,0,0.50);
-    padding: 40px 0 0 8px;
-    margin-bottom: 40px;
-    font-size: 16px;
+    color: var(--footer-color);
+    font-size: 1rem;
 }
 
-.user-name {
+.form-control-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-control-input {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid var(--footer-color);
+}
+
+.form-control-input::placeholder {
+    color: var(--gray-color);
+}
+
+.form-buttons-container {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/*user-name:
     width: 280px;
     height: 50px;
     background-color: var(--white-color);
@@ -291,12 +320,9 @@ footer a {
     border-radius: 4px;
     margin-bottom: 18px;
     padding: 13px 0 13px 22px;
-    font-size: 1rem;
-    font-weight: 400;
     line-height: 24px;
-}
-
-.user-email {
+*/
+/*user-email:
     width: 280px;
     height: 50px;
     background-color: var(--white-color);
@@ -306,7 +332,7 @@ footer a {
     font-weight: 400;
     font-size: 1rem;
     line-height: 24px;
-}
+*/
 
 
 .game-platforms {
