@@ -95,6 +95,7 @@ span {
     color: var(--blue-color);
 }
 
+
 #signup h2 {
     /*width: 231px; height: 36px; line-height: 36px; */
     color: var(--title-section1-color);
@@ -118,6 +119,11 @@ footer {
 .generic-section {
     padding: 40px 10px;
 }
+
+#signup {
+    padding: 40px 0 40px 0;
+}
+
 
 .container {
     width: 100%;
