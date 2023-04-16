@@ -103,7 +103,7 @@ span {
 #signup h2 {
     /*width: 231px; height: 36px; line-height: 36px; */
     color: var(--title-section1-color);
-    font-size: 1.25rem/*1.5rem*/;
+    font-size: 24px/*1.25rem 1.5rem*/;
     margin-bottom: 10px;
     text-align: center;
 }
