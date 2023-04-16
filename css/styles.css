@@ -84,7 +84,7 @@ a {
 
 #games h3 {
     /*width: 220px; height: 27px;*/
-    font-size: 18px /*1.125rem*/;
+    font-size: 1.125rem /*18px*/;
     color: var(--title-section1-color);
     text-align: center;
     /*margin: 27.46px 40px 0 40px;
@@ -246,7 +246,7 @@ footer {
 
 .game-card-info p {
     /*width: 207px; height: 21px;*/
-    font-size: 12px /*0.75rem*/; 
+    font-size: 0.75rem /*12px*/; 
     color: var(--title-section1-color);
     text-align: center;
     /*margin: 0 46px 0 47px;
