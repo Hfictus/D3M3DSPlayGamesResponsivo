@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 /*
-continuar na classe btn da seção signup
+Ver por que o título da seção 3 está quebrando no celular
 */
 
 
@@ -102,8 +102,8 @@ span {
 
 #signup h2 {
     /*width: 231px; height: 36px; line-height: 36px; */
-    font-size: 1.5rem;
     color: var(--title-section1-color);
+    font-size: 1.375rem/*1.5rem*/;
     margin-bottom: 10px;
     text-align: center;
 }
