@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+/*
+Ver:
+zerando os padding laterais das seções em generic-section;
+resolvi a quebra do h2 da section 3 e o 1º p do game-card;
+a quebra do h3 de game-card só resolvi diminuindo o font-size
+
+
+*/
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -87,8 +98,7 @@ a {
     font-size: 1.125rem /*18px*/;
     color: var(--title-section1-color);
     text-align: center;
-    /*margin: 27.46px 40px 0 40px;
-    line-height: 27px;*/
+    /*margin: 27.46px 40px 0 40px; line-height: 27px;*/
 }
 
 span {
@@ -117,13 +127,8 @@ footer {
 /*css classes*/
 
 .generic-section {
-    padding: 40px 10px;
+    padding: 40px 5px; /*40px 10px*/
 }
-
-#signup {
-    padding: 40px 0 40px 0;
-}
-
 
 .container {
     width: 100%;
@@ -239,7 +244,7 @@ footer {
 }
 
 .game-card-info {
-    padding: 30px 15px 15px 15px;
+    padding: 30px 5px 15px 5px;
     background-color: var(--white-color);
     border-radius: 0 0 8px 8px;
 }
